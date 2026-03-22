@@ -12,19 +12,19 @@
       "iconURL": "https://placehold.co/128x128/7C3AED/white.png?text=F",
       "tintColor": "#7C3AED",
       "category": "utilities",
-      "version": "1.2",
+      "version": "1.3",
       "versionDate": "2026-03-22",
       "versionDescription": "v28: categorías, timeline, mejoras de UI.",
       "downloadURL": "https://raw.githubusercontent.com/arenazl/fotify-dist/main/Fotify.ipa",
-      "size": 147800,
+      "size": 159454,
       "versions": [
         {
-          "version": "1.2",
+          "version": "1.3",
           "buildVersion": "1",
           "date": "2026-03-22",
           "localizedDescription": "v28: categorías, timeline, mejoras de UI.",
           "downloadURL": "https://raw.githubusercontent.com/arenazl/fotify-dist/main/Fotify.ipa",
-          "size": 147800,
+          "size": 159454,
           "minOSVersion": "18.0"
         }
       ],

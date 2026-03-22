@@ -2,24 +2,25 @@
   "name": "Fotify",
   "subtitle": "Photo Manager con IA",
   "description": "Organizá, limpiá y etiquetá tus fotos con inteligencia artificial.",
+  "iconURL": "https://arenazl.github.io/fotify/icon.png",
   "apps": [
     {
       "name": "Fotify",
       "bundleIdentifier": "com.fotify.app",
       "developerName": "Lucas Arenaz",
       "subtitle": "Photo Manager con IA",
-      "localizedDescription": "Fotify organiza tu librería de fotos: detecta capturas de pantalla, encuentra duplicados con hashing perceptual, y clasifica tus fotos con Groq AI.",
-      "iconURL": "https://raw.githubusercontent.com/arenazl/fotify-dist/main/icon.png",
+      "localizedDescription": "Fotify organiza tu librería de fotos: detecta capturas de pantalla, encuentra duplicados con hashing perceptual, y clasifica tus fotos con Vision Framework y Grok AI.",
+      "iconURL": "https://arenazl.github.io/fotify/icon.png",
       "tintColor": "#7C3AED",
       "category": "utilities",
       "versions": [
         {
-          "version": "1.1",
+          "version": "1.2",
           "buildVersion": "1",
           "date": "2026-03-22",
-          "localizedDescription": "Cortex v.27: integración Groq AI, mejoras de UI.",
-          "downloadURL": "https://raw.githubusercontent.com/arenazl/fotify-dist/main/Fotify.ipa",
-          "size": 150120,
+          "localizedDescription": "Primera versión: dashboard, detección de capturas, scanner de duplicados, clasificación con IA.",
+          "downloadURL": "https://github.com/arenazl/fotify/releases/latest/download/Fotify.ipa",
+          "size": 500000,
           "minOSVersion": "18.0"
         }
       ],

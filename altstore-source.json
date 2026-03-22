@@ -1,0 +1,36 @@
+{
+  "name": "Fotify",
+  "subtitle": "Photo Manager con IA",
+  "description": "Organizá, limpiá y etiquetá tus fotos con inteligencia artificial.",
+  "apps": [
+    {
+      "name": "Fotify",
+      "bundleIdentifier": "com.fotify.app",
+      "developerName": "Lucas Arenaz",
+      "subtitle": "Photo Manager con IA",
+      "localizedDescription": "Fotify organiza tu librería de fotos: detecta capturas de pantalla, encuentra duplicados con hashing perceptual, y clasifica tus fotos con Groq AI.",
+      "iconURL": "https://raw.githubusercontent.com/arenazl/fotify-dist/main/icon.png",
+      "tintColor": "#7C3AED",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.1",
+          "buildVersion": "2",
+          "date": "2026-03-22",
+          "localizedDescription": "Cortex v.27: integración Groq AI, mejoras de UI.",
+          "downloadURL": "https://raw.githubusercontent.com/arenazl/fotify-dist/main/Fotify.ipa",
+          "size": 150120,
+          "minOSVersion": "18.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSPhotoLibraryUsageDescription": "Acceder, organizar y eliminar fotos.",
+          "NSPhotoLibraryAddUsageDescription": "Guardar fotos organizadas."
+        }
+      }
+    }
+  ],
+  "news": []
+}

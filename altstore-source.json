@@ -8,8 +8,8 @@
       "bundleIdentifier": "com.fotify.app",
       "developerName": "Lucas Arenaz",
       "subtitle": "Photo Manager con IA",
-      "iconURL": "https://placehold.co/128x128/7C3AED/white.png?text=F",
       "localizedDescription": "Fotify organiza tu librería de fotos: detecta capturas de pantalla, encuentra duplicados con hashing perceptual, y clasifica tus fotos con IA.",
+      "iconURL": "https://placehold.co/128x128/7C3AED/white.png?text=F",
       "tintColor": "#7C3AED",
       "category": "utilities",
       "versions": [
@@ -25,10 +25,12 @@
       ],
       "appPermissions": {
         "entitlements": [],
-        "privacy": {
-          "NSPhotoLibraryUsageDescription": "Acceder, organizar y eliminar fotos.",
-          "NSPhotoLibraryAddUsageDescription": "Guardar fotos organizadas."
-        }
+        "privacy": [
+          {
+            "name": "PhotoLibrary",
+            "usageDescription": "Acceder, organizar y eliminar fotos."
+          }
+        ]
       }
     }
   ],

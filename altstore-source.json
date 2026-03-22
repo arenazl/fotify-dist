@@ -12,6 +12,11 @@
       "iconURL": "https://placehold.co/128x128/7C3AED/white.png?text=F",
       "tintColor": "#7C3AED",
       "category": "utilities",
+      "version": "1.2",
+      "versionDate": "2026-03-22",
+      "versionDescription": "v28: categorías, timeline, mejoras de UI.",
+      "downloadURL": "https://raw.githubusercontent.com/arenazl/fotify-dist/main/Fotify.ipa",
+      "size": 147800,
       "versions": [
         {
           "version": "1.2",
@@ -29,6 +34,10 @@
           {
             "name": "PhotoLibrary",
             "usageDescription": "Acceder, organizar y eliminar fotos."
+          },
+          {
+            "name": "Photos (Add)",
+            "usageDescription": "Guardar fotos organizadas."
           }
         ]
       }
